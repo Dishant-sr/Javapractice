@@ -13,6 +13,8 @@ public class MadLibsGame {
         String adjective = scanner.nextLine();
         System.out.print("Please enter number: ");
         int number = scanner.nextInt();
+        
+      
 
         
         
