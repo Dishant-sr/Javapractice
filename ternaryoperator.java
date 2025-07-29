@@ -31,7 +31,7 @@ public class ternaryoperator {
         System.out.println(PassOrFail);
         scanner.close();
 
-
+// variable = (condition) ? IfTrue : IfFalse;
 
 
     }
