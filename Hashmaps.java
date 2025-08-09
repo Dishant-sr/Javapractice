@@ -10,6 +10,9 @@ public class Hashmaps {
        // map.remove("apple");
         System.out.println(map.containsKey("orange"));
         System.out.println(map.containsValue(0.15));
+        System.out.println(map.size());
+        System.out.println(map.get("bananas"));
+        
 
 
         
