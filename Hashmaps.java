@@ -7,7 +7,10 @@ public class Hashmaps {
         map.put("orange", 0.85);        
         map.put("bananas", 0.55);
 
-        System.out.println(map);
+       // map.remove("apple");
+        System.out.println(map.containsKey("orange"));
+
+        
 
     }
 
