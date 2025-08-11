@@ -1,13 +1,14 @@
 public class method{
 
-static void birthdaywish(String name){
+static void birthdaywish(String name, String name2){
     System.out.printf("happy birthday %s\n", name );
-    System.out.println("happy birthday batman ");
+    System.out.printf("happy birthday %s ",name2);
 }
 
     public static void main(String[] args){
         String name = "bruce";
-        birthdaywish(name);
+        String name2 = "batman";
+        birthdaywish(name, name2);
        
         
 
