@@ -5,10 +5,12 @@ static void birthdaywish(String name, String name2){
     System.out.printf("happy birthday %s ",name2);
 }
 
+static double square(double number){
+    return number* number;
+}
     public static void main(String[] args){
-        String name = "bruce";
-        String name2 = "batman";
-        birthdaywish(name, name2);
+        System.out.println(square(4));
+       
        
         
 
